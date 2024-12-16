@@ -26,8 +26,7 @@ To get a local copy up and running, follow these simple steps:
    ```sh
    git clone https://github.com/Saloni581/online-job-portal.git
 
-   ## Usage
-
+## Usage  
 Open the `index.html` file in your preferred web browser to view the job portal UI.
 
 ## Contributing
