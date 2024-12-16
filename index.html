@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Online Job Portal</title>
+  </head>
+  <body>
+    <nav class="bg-[#22223b] border-b border-gray-100">
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="flex h-20 items-center justify-between">
+          <div
+            class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
+          >
+            <!-- Logo -->
+            <a class="flex flex-shrink-0 items-center mr-4" href="/index.html">
+              <img
+                class="bg-white rounded-lg"
+                src="images/logo.png"
+                alt="website logo"
+              />
+              <span class="hidden md:block text-white text-2xl font-bold ml-2"
+                >Online Job Portal</span
+              >
+            </a>
+            <div class="md:ml-auto">
+              <div class="flex space-x-2">
+                <a
+                  href="/index.html"
+                  class="text-white bg-black hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Home</a
+                >
+                <a
+                  href="/pages/jobs.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Jobs</a
+                >
+                <a
+                  href="/pages/post-job.html"
+                  class="text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2"
+                  >Add Job</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-[#4a4e69] py-20 mb-4">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center"
+      >
+        <div class="text-center">
+          <h1
+            class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
+          >
+              Your Dream Job Awaits
+          </h1>
+          <p class="my-4 text-xl text-white">
+            Find the job that matches your skills and passion. Start your journey with us today.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Developers and Employers -->
+    <section class="py-4">
+      <div class="container-xl lg:container m-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
+          <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold">For Developers</h2>
+            <p class="mt-2 mb-4">
+              Browse jobs and start your career today
+            </p>
+            <a
+              href="/pages/jobs.html"
+              class="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
+            >
+              Browse Jobs
+            </a>
+          </div>
+          <div class="bg-indigo-100 p-6 rounded-lg shadow-md">
+            <h2 class="text-2xl font-bold">For Employers</h2>
+            <p class="mt-2 mb-4">
+              List your job to find the perfect developer for the role
+            </p>
+            <a
+              href="/pages/post-job.html"
+              class="inline-block bg-[#22223b] text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
+            >
+              Add Job
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Browse Jobs -->
+    <section class="bg-blue-50 px-4 py-10">
+      <div class="container-xl lg:container m-auto">
+        <h2 class="text-3xl font-bold text-[#22223b] mb-6 text-center">
+          Recent Jobs
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Job Listing 1 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Full-Time</div>
+                <h3 class="text-xl font-bold">AI Engineer</h3>
+              </div>
+
+              <div class="mb-5">
+                We are looking for an AI Engineer with expertise in deep learning frameworks like TensorFlow and PyTorch. Join our Kolkata-based team to develop innovative AI-powered solutions.
+              </div>
+
+              <h3 class="text-[#22223b] mb-2">₹18L - ₹25L / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Kolkata, West Benga
+                </div>
+                <a
+                  href="./pages/jobs/aiEngineer.html"
+                  class="h-[36px] bg-[#22223b] hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                 Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing 2 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Remote</div>
+                <h3 class="text-xl font-bold">Backend Developer</h3>
+              </div>
+
+              <div class="mb-5">
+               Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion...
+              </div>
+
+              <h3 class="text-[#22223b] mb-2">₹12L - ₹18L / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Bangalore, Karnataka
+                </div>
+                <a
+                  href="./pages/jobs/backendDeveloper.html"
+                  class="h-[36px] bg-[#22223b] hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                 Read More
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Job Listing 3 -->
+          <div class="bg-white rounded-xl shadow-md relative">
+            <div class="p-4">
+              <div class="mb-6">
+                <div class="text-gray-600 my-2">Part-Time</div>
+                <h3 class="text-xl font-bold">Product Manager</h3>
+              </div>
+
+              <div class="mb-5">
+                Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference...
+              </div>
+
+              <h3 class="text-[#22223b] mb-2">₹20L - ₹30L / Year</h3>
+
+              <div class="border border-gray-100 mb-5"></div>
+
+              <div class="flex flex-col lg:flex-row justify-between mb-4">
+                <div class="text-orange-700 mb-3">
+                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  Hyderabad, Telangana
+                </div>
+                <a
+                  href="./pages/jobs/productManager.html"
+                  class="h-[36px] bg-[#22223b] hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
+                >
+                 Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-auto max-w-lg my-10 px-6">
+      <a
+        href="/pages/jobs.html"
+        class="block bg-black text-white text-center py-4 px-6 rounded-xl hover:bg-gray-700"
+        >View All Jobs</a
+      >
+    </section>
+
+    <footer>
+        <div class="bg-[#22223b] text-white py-6">
+          <div class="container mx-auto text-center">
+            <p>&copy; 2023 Online Job Portal. All rights reserved.</p>
+          </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
